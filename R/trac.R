@@ -41,8 +41,8 @@ trac = function(tracID){
 
   c = colorspace::RGB(r, g, b)
   hexc = colorspace::hex(c)
-  x=rep(1:10, each=6)
-  y=rep(c(7:2 -1), 10)
+  x=rep(1:10, 6)
+  y=rep(c(7:2 -1), each=10)
   cols = data.frame(x, y, hexc)
   colnames(cols) = c("x", "y", "hexc")
   cols$id = paste("trac_", seq.int(1,60), sep="")
