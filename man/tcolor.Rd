@@ -2,21 +2,22 @@
 % Please edit documentation in R/tcolor.R
 \name{tcolor}
 \alias{tcolor}
-\title{Returns TRAC standard colors in hex format}
+\title{Get TRAC Color}
 \usage{
 tcolor(tracID)
 }
 \arguments{
-\item{tracID}{character}
+\item{tracID}{string}
 }
 \value{
-character
+string
 }
 \description{
-Returns TRAC standard colors in hex format
+Returns a string representing a TRAC standard colors in hex format.
 }
 \examples{
-tcolor("trac_22")
+tcolor("gr9")
 
-ggplot() + geom_col(aes(x=x, y=value), color = tcolor("trac_22"))
+library(ggplot2)
+ggplot() + geom_col(aes(x=c("foo", "bar"), y=1:2), fill = tcolor("bl1"))
 }

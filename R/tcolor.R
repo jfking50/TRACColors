@@ -1,14 +1,17 @@
-#' Returns TRAC standard colors in hex format
+#' Get TRAC Color
 #'
-#' @param tracID character
+#' Returns a string representing a TRAC standard colors in hex format.
 #'
-#' @return character
+#' @param tracID string
+#'
+#' @return string
 #' @export
 #'
 #' @examples
-#' tcolor("trac_22")
+#' tcolor("gr9")
 #'
-#' ggplot() + geom_col(aes(x=x, y=value), color = tcolor("trac_22"))
+#' library(ggplot2)
+#' ggplot() + geom_col(aes(x=c("foo", "bar"), y=1:2), fill = tcolor("bl1"))
 tcolor = function(tracID){
   df = trac()
   df[df$id==tracID, ]$hexc

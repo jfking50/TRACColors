@@ -4,16 +4,13 @@
 \alias{colorgrid}
 \title{Plot TRAC Colors}
 \usage{
-colorgrid(x)
-}
-\arguments{
-\item{x}{}
+colorgrid()
 }
 \value{
 
 }
 \description{
-Plot TRAC Colors
+Creates a reference plot showing TRAC standard colors and their associated color name.
 }
 \examples{
 colorgrid()
