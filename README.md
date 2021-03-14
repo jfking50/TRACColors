@@ -1,10 +1,16 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- README.md is generated from README.Rmd. Please edit the .Rmd file and generate the .md file with devtools::build_readme(). -->
 
 # TRACcolors
 
-A simple package to display TRAC standard colors and generate those
+A simple R package to display TRAC standard colors and generate those
 colors in hex format for use in plotting.
+
+## Installation
+
+The **TRACcolors** package is not available on CRAN but can be installed
+with the **remotes** package. For example,
+`remotes::install_github("jfking50/TRACcolors")`.
 
 ## Quick Demo
 
