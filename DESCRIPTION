@@ -1,12 +1,11 @@
 Package: TRACcolors
 Title: Generate Standard TRAC Colors
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person(given = "John",
            family = "King",
            role = c("aut", "cre"),
-           email = "jkingf@gmail.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+           email = "jkingf@gmail.com")
 Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8

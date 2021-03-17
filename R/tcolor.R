@@ -11,8 +11,9 @@
 #' tcolor("gr9")
 #'
 #' library(ggplot2)
-#' ggplot() + geom_col(aes(x=c("foo", "bar"), y=1:2), fill = tcolor("bl1"))
-tcolor = function(tracID){
-  df = trac()
-  df[df$id==tracID, ]$hexc
+#' ggplot() +
+#'   geom_col(aes(x = c("foo", "bar"), y = 1:2), fill = tcolor("bl1"))
+tcolor <- function(tracID) {
+  df <- trac()
+  df[df$id == tracID, ]$hexc
 }
